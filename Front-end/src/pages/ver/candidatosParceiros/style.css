@@ -1,0 +1,40 @@
+.card {
+  margin-top: 25%;
+  margin-bottom: 5%;
+}
+
+.table__parceiros {
+  margin-top: 14%;
+  background-color: rgba(255, 255, 255, 0.100) !important;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  text-align: center;
+  margin-bottom: 15% !important;
+  border-radius: 20px;
+}
+
+td {
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 850px) {
+  .table__parceiros {
+    margin-top: 20vh;
+    margin-bottom: 20vh !important;
+    vertical-align: middle;
+    z-index: 2;
+  }
+
+  .table th {
+    vertical-align: middle;
+  }
+
+  .fim img {
+    width: 10vw;
+  }
+  .overflow {
+    overflow: scroll;
+  }
+}

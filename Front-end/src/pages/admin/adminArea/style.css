@@ -1,0 +1,44 @@
+.principal-main {
+    margin-top: 15vh;
+    flex-wrap: wrap;
+    margin-left: 12%;
+}
+
+.principal-main img {
+    width: 20vw;
+    margin: 3%;
+    border-radius: 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.664);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    transition: all 0.5s ease;
+}
+
+.principal-main img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.664);
+}
+
+@media screen and (max-width: 850px) {
+    .principal-main {
+        display: flex;
+<<<<<<< HEAD
+        width: 90%;
+        padding-left: 20%;
+    }
+
+    .principal-main img {
+        width: 70%;
+=======
+        width: 90vw;
+        margin-bottom: 20vh;
+    }
+
+    .principal-main img {
+        width: 70vw;
+>>>>>>> 8933722 ('Finalizando-Projeto')
+        margin-top: 5vh;
+    }
+  }

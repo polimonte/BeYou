@@ -1,0 +1,52 @@
+.card {
+  margin-top: 25%;
+  margin-bottom: 5%;
+}
+
+.table_candidatos {
+<<<<<<< HEAD
+  margin-top: 14%;
+=======
+  margin-top: 30vh;
+  margin-bottom: 65vh !important;
+>>>>>>> 8933722 ('Finalizando-Projeto')
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+<<<<<<< HEAD
+  margin-bottom: 15% !important;
+=======
+>>>>>>> 8933722 ('Finalizando-Projeto')
+  border-radius: 20px;
+}
+
+td {
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 850px) {
+  .table_candidatos {
+<<<<<<< HEAD
+    margin-top: 20vh;
+    margin-bottom: 20vh !important;
+=======
+    margin-top: 25vh;
+    margin-bottom: 40vh !important;
+>>>>>>> 8933722 ('Finalizando-Projeto')
+    vertical-align: middle;
+    z-index: 2;
+  }
+
+  .table th {
+    vertical-align: middle;
+  }
+
+  .fim img {
+    width: 10vw;
+  }
+  .overflow {
+    overflow: scroll;
+  }
+}

@@ -1,0 +1,64 @@
+a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .primeiro__bloco {
+    margin-top: 15vh;
+  }
+
+  .card__group__encontre-casa {
+    margin-top: -35vh !important;
+  }
+  
+  .card {
+    margin: 2%;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    transition: all 0.5s ease;    
+  }
+  
+  .card:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.664);
+  }
+  
+  .card img {
+    height: 200px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .card-body {
+    background-color: rgba(251, 251, 251, 0.746);
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 850px) {
+    
+    .fim img {
+      width: 10vw;
+    }
+
+    .card-group {
+      margin-top: 5vh !important;
+      display: flex;
+      flex-direction: column !important;
+    }
+
+  }
+  
+  @media screen and (min-width: 851px) and (max-width: 1024px) {
+    .card-group {
+      width: 80vw !important;
+      margin-left: -4vw;
+    }
+    
+  }

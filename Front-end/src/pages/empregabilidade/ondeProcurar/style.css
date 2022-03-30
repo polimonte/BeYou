@@ -1,0 +1,50 @@
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    margin-top: 8%;
+}
+
+.card-group {
+    margin-top: -15vh !important;
+    margin-bottom: 8%;
+}
+
+.card {
+    margin: 2%;
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.664);
+}
+
+.card img {
+    height: 200px;
+    border-radius: 0 0 10px 10px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-body {
+    background-color: rgba(251, 251, 251, 0.746);
+    font-weight: bold;
+}
+
+.card-text {
+    font-weight: normal;
+}
+
+@media screen and (max-width: 850px) {
+    .bloco__1__onde-procurar {
+        margin-top: 15vh !important;
+        margin-bottom: 25vh !important;
+    }
+}

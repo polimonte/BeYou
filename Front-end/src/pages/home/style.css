@@ -1,0 +1,229 @@
+.container-1 {
+  width: 90%;
+  margin-top: 15vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+
+.banner img {
+    width: 95%;
+    margin-left: 2%;
+    border-radius: 30px;
+    border: solid 1px #000;
+  }
+  
+  .titulo {
+    color: #000;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .container-2 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-top: 10vh;
+  }
+
+  .container-2 .btn {
+    font-size: 0.7em !important;
+  }
+  
+  .banner-2 {
+    padding: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .banner-2 img {
+    align-items: center;
+    margin: 20px;
+    border-radius: 10%;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 5px #000;
+  }
+  
+  .banner-2 img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  .banner-2 a {
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 140px;
+  }
+  
+  .btn {
+    font-size: 20px;  
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    transition: all 0.5s ease;
+    margin-top: 3%;
+  }
+
+  .btn__acolhimento, .btn__cursos, .btn__denuncia, .btn__video {
+    width: 15vw !important;
+    height: 5vh;
+  }
+
+  .btn__mvv {
+    width: 25vw !important;
+    height: 5vh;
+    margin-left: 50% !important;
+    margin-right: 50% !important;    
+  }
+  
+  .btn:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  .display-4 {
+    text-align: center;    
+    margin-bottom: 5vh;
+  }
+  
+  .container-3 {
+    align-items: center;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    margin-top: 20vh;
+  }
+  
+  .noticias {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  .carousel-item iframe {
+    width: 55vw;
+    height: 400px;
+    box-shadow: 0 0 10px #000;
+  }
+  
+  #ver-mais {
+    text-align: center;
+    width: 100%;
+  }
+
+  .container-3 .btn {
+    font-size: 0.9em !important;
+  }
+  
+  .mvv {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    padding-bottom: 3%;
+  }
+  
+  .mvv img {
+    width: 50vw;
+    align-items: center;
+    margin-left: 25%;
+  }
+
+  .mvv .btn {
+    width: 100%;
+    font-size: 0.9em !important;
+<<<<<<< HEAD
+    margin-left: 35%;
+=======
+    margin-left: 20vw;
+>>>>>>> 8933722 ('Finalizando-Projeto')
+  }
+
+  @media screen and (max-width: 599px) {
+
+      .banner-2 {
+      margin-top: -10vh;
+      display: flex;
+      flex-direction: column;
+<<<<<<< HEAD
+      margin-left: auto;
+      margin-right: auto;
+=======
+      margin-left: auto !important;
+      margin-right: auto !important;
+>>>>>>> 8933722 ('Finalizando-Projeto')
+    }
+
+    .banner-2 img {
+      width: 60vw;
+      height: 25vh;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .btn__acolhimento, .btn__cursos, .btn__denuncia, .btn__video{
+      width: 40vw !important;
+      margin-left: 5vw;
+    }
+
+    .btn__mvv {
+      width: 40vw !important;
+    }
+
+    .container-3 {
+      margin-top: 5vh;
+    }
+
+    .container-4 {
+      margin-top: -20vh;
+    }
+
+    .mvv img {
+      width: 70vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 800px) {
+    .banner img{
+      height: 30vh;
+    }
+
+    .banner-2 {
+      margin-top: -15vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container-3 {
+      margin-top: 5vh;
+    }
+
+    .mvv img {
+      width: 70vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    
+  }
+
+  @media screen and (min-width: 800px) and (max-width: 1023px) {
+    .banner-2 {
+      width: 90vw;
+      align-items: center;
+      margin-top: -15vh;
+      margin-left: -11%;
+    }
+
+    .banner-2 img {
+      width: 25vw;
+      height: 50vh;
+    }
+
+    footer {
+      margin-bottom: -5vh !important;
+    }
+  }

@@ -1,0 +1,54 @@
+<<<<<<< HEAD
+.table {
+  margin-top: 20vh;
+  text-align: center;
+  vertical-align: middle;
+}
+=======
+>>>>>>> 8933722 ('Finalizando-Projeto')
+
+.table_capacitacao {  
+  background-color: rgba(255, 255, 255, 0.100) !important;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+<<<<<<< HEAD
+
+=======
+  margin-top: 30vh !important;
+  margin-bottom: 60vh;
+  text-align: center;
+>>>>>>> 8933722 ('Finalizando-Projeto')
+  vertical-align: middle !important;
+}
+
+.table .btn {
+  width: 55%;
+}
+
+th {
+  color: #000;
+}
+
+td {
+  vertical-align: middle;
+  color: #000;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.candidatar {
+  font-size: 0.7em !important;
+  width: 11vw;
+}
+
+@media screen and (max-width: 599px) {
+  .overflow {
+    overflow: scroll;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px) {
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+}

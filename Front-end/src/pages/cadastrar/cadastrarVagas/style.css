@@ -1,0 +1,62 @@
+.descricao {
+  margin-top: 9%;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+
+h2 {
+  font-weight: bold !important;
+}
+
+h5 {
+  text-align: center;
+  margin-left: 4.5%;
+  font-weight: bold !important;
+}
+
+input[type="text"],
+input[type="file"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.dados {
+  font-weight: bold;
+  padding: 20px;
+  margin-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70vw;
+  border-radius: 20px;
+  background-color: rgba(251, 251, 251, 0.746);
+}
+
+@media screen and (max-width: 850px) {
+  .primeiro__bloco__cadastrar__vaga {
+    margin-top: 10vh !important;
+  }
+}
